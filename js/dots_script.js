@@ -61,7 +61,10 @@ allInputs[3].nextElementSibling.innerText = data.d
 
 document.querySelector("#submit").addEventListener(
 "click",
+
 function() {
+    var checked_gender = document.querySelector('input[name = "option"]:checked');
+    if(checked_gender != null){
     const data = quizData[index]
     const ans = getAnswer()
     if (ans === data.correct) {
@@ -71,6 +74,11 @@ function() {
     }
     index++;
     loadQuestion()
+
+}
+else {
+    alert("Please Select One Option.");
+}   
 }
 )
 
@@ -103,10 +111,10 @@ if(correct >= 0 && correct <= 1){
             <h3 class="w-100" style="text-align:center;"> 
             YOU HAVE SCORED ${correct} OUT OF ${total}</h3>
             <div class="im" style="text-align:center;">
-                <img src="images/lowscore.jpg" alt="image" height="300">
+                <img src="../images/lowscore.jpg" alt="image" height="300">
             </div>
             <h4 class="w-100" style="text-align:center;"> 
-            <a href="index.html" style="text-decoration:none;">RETURN TO HOMEPAGE</a></h4>
+            <a href="../index.html" style="text-decoration:none;">RETURN TO HOMEPAGE</a></h4>
            
        </div>
    `
@@ -117,10 +125,10 @@ if(correct >= 0 && correct <= 1){
         <h3 class="w-100" style="text-align:center;"> 
             YOU HAVE SCORED ${correct} OUT OF ${total}</h3>
             <div class="im" style="text-align:center;">
-                <img src="images/midscore.jpg" alt="image" height="300">
+                <img src="../images/midscore.jpg" alt="image" height="300">
             </div>
             <h4 class="w-100" style="text-align:center;"> 
-            <a href="index.html" style="text-decoration:none;">RETURN TO HOMEPAGE</a></h4>
+            <a href="../index.html" style="text-decoration:none;">RETURN TO HOMEPAGE</a></h4>
            
         </div>
     `
@@ -132,10 +140,10 @@ else {
         <h3 class="w-100" style="text-align:center;"> 
             YOU HAVE SCORED ${correct} OUT OF ${total}</h3>
             <div class="im" style="text-align:center;">
-                <img src="images/highscore.jpg" alt="image" height="300">
+                <img src="../images/highscore.jpg" alt="image" height="300">
             </div>
             <h4 class="w-100" style="text-align:center;"> 
-            <a href="index.html" style="text-decoration:none;">RETURN TO HOMEPAGE</a></h4>
+            <a href="../index.html" style="text-decoration:none;">RETURN TO HOMEPAGE</a></h4>
            
         </div>
     `
