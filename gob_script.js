@@ -96,30 +96,50 @@ allInputs.forEach(
 
 const quizEnd = () => {
 
-if(correct >= 0 && correct <= 1){
-    // console.log(document.getElementsByClassName("container"));
-   document.getElementsByClassName("container")[0].innerHTML = `
-       <div class="col">
-           <h3 class="w-100"> Did you even watch the show?!?!? <br>you've scored ${correct} / ${total} </h3>
-       </div>
-   `
-} else if(correct >= 2 && correct <= 4){
-    // console.log(document.getElementsByClassName("container"));
-    document.getElementsByClassName("container")[0].innerHTML = `
-        <div class="col">
-        <h3 class="w-100"> You did okay <br>you've scored ${correct} / ${total} </h3>
-        </div>
-    `
-} 
-else {
-    // console.log(document.getElementsByClassName("container"));
-    document.getElementsByClassName("container")[0].innerHTML = `
-        <div class="col">
-        <h3 class="w-100"> Wow!!!!! <br>you've scored ${correct} / ${total} </h3>
-      
-        </div>
-    `
-}
-
-}
-loadQuestion(index);
+    if(correct >= 0 && correct <= 1){
+        // console.log(document.getElementsByClassName("container"));
+       document.getElementsByClassName("container")[0].innerHTML = `
+           <div class="col">
+                <h3 class="w-100" style="text-align:center;"> 
+                YOU HAVE SCORED ${correct} OUT OF ${total}</h3>
+                <div class="im" style="text-align:center;">
+                    <img src="images/lowscore.jpg" alt="image" height="300">
+                </div>
+                <h4 class="w-100" style="text-align:center;"> 
+                <a href="index.html" style="text-decoration:none;">RETURN TO HOMEPAGE</a></h4>
+               
+           </div>
+       `
+    } else if(correct >= 2 && correct <= 4){
+        // console.log(document.getElementsByClassName("container"));
+        document.getElementsByClassName("container")[0].innerHTML = `
+            <div class="col">
+            <h3 class="w-100" style="text-align:center;"> 
+                YOU HAVE SCORED ${correct} OUT OF ${total}</h3>
+                <div class="im" style="text-align:center;">
+                    <img src="images/midscore.jpg" alt="image" height="300">
+                </div>
+                <h4 class="w-100" style="text-align:center;"> 
+                <a href="index.html" style="text-decoration:none;">RETURN TO HOMEPAGE</a></h4>
+               
+            </div>
+        `
+    } 
+    else {
+        // console.log(document.getElementsByClassName("container"));
+        document.getElementsByClassName("container")[0].innerHTML = `
+            <div class="col">
+            <h3 class="w-100" style="text-align:center;"> 
+                YOU HAVE SCORED ${correct} OUT OF ${total}</h3>
+                <div class="im" style="text-align:center;">
+                    <img src="images/highscore.jpg" alt="image" height="300">
+                </div>
+                <h4 class="w-100" style="text-align:center;"> 
+                <a href="index.html" style="text-decoration:none;">RETURN TO HOMEPAGE</a></h4>
+               
+            </div>
+        `
+    }
+    
+    }
+    loadQuestion(index);
