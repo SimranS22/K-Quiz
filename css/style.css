@@ -400,6 +400,9 @@ section{
     padding: 1rem;
 
   }
+    .fa-4x{
+    color: #fff;
+  }
 
 @media(max-width:768px){
     .heading{
