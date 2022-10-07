@@ -62,6 +62,8 @@ allInputs[3].nextElementSibling.innerText = data.d
 document.querySelector("#submit").addEventListener(
 "click",
 function() {
+    var checked_gender = document.querySelector('input[name = "option"]:checked');
+    if(checked_gender != null){
     const data = quizData[index]
     const ans = getAnswer()
     if (ans === data.correct) {
@@ -71,6 +73,10 @@ function() {
     }
     index++;
     loadQuestion()
+}
+else {
+    alert("Please Select One Option.");
+}  
 }
 )
 

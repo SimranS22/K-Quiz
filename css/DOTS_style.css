@@ -12,7 +12,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url(images/dots.jpg);
+    background: url(../images/dots.jpg);
 }
 
 .container {
