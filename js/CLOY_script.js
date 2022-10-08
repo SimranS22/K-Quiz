@@ -18,7 +18,7 @@ const quizData = [{
     question: "Why did Ri Jung Hyuk tie Se Ri's hair up?",
     a: "Because her hair was flying all over the place",
     b: "The police would catch her",
-    c: "She looks like a foriegner.",
+    c: "She looks like a foreigner.",
     d: "Her hair would fall out",
     correct: "c",
 },
@@ -37,7 +37,7 @@ const quizData = [{
     b: "Han Jeong-yeon",
     c: "Yang Ok-geum",
     d: "Hyeon Myeong-soon",
-    correct: "d",
+    correct: "a",
 }
 ];
 let index = 0;
