@@ -74,7 +74,7 @@ Star the repo by pressing the topmost-right button to start your wonderful journ
 
 
 
-You can get your own fork/copy of [HacktoberFest-2022](https://github.com/ishaangupta-YB/Hacktoberfest-2022) by using the <a href="https://github.com/ishaangupta-YB/Hacktoberfest-2022/new/master?readme=1#fork-destination-box"><kbd><b>Fork</b></kbd></a> button.
+You can get your own fork/copy of [K-Quiz](https://github.com/SimranS22/K-Quiz) by using the <a href="https://github.com/SimranS22/K-Quiz/new/master?readme=1#fork-destination-box"><kbd><b>Fork</b></kbd></a> button.
 
 
 
@@ -94,7 +94,7 @@ You need to clone or (download) it to local machine using
 
 ```sh
 
-$ git clone https://github.com/Your_Username/Hacktoberfest-2022.git
+$ git clone https://github.com/Your_Username/K-Quiz.git
 
 ```
 
@@ -104,15 +104,15 @@ $ git clone https://github.com/Your_Username/Hacktoberfest-2022.git
 
 
 
-Once you have cloned the `Hacktoberfest-2022` repository in Github, move to that folder first using change directory command on Linux, Mac, and Windows(PowerShell to be used).
+Once you have cloned the `K-Quiz` repository in Github, move to that folder first using change directory command on Linux, Mac, and Windows(PowerShell to be used).
 
 
 
 ```sh
 
-# This will change directory to a folder Hacktoberfest-2022
+# This will change directory to a folder K-Quiz
 
-$ cd Hacktoberfest-2022
+$ cd K-Quiz
 
 ```
 
@@ -134,21 +134,21 @@ Run the following commands to see that *your local copy* has a reference to *you
 
 $ git remote -v
 
-origin  https://github.com/Your_Username/Hacktoberfest-2022.git (fetch)
+origin  https://github.com/Your_Username/K-Quiz.git (fetch)
 
-origin  https://github.com/Your_Username/Hacktoberfest-2022.git (push)
+origin  https://github.com/Your_Username/K-Quiz.git (push)
 
 ```
 
 
 
-Now, let's add a reference to the original [Hacktoberfest-2022](https://github.com/ishaangupta-YB/Hacktoberfest-2022/) repository using
+Now, let's add a reference to the original [K-Quiz](https://github.com/SimranS22/K-Quiz/) repository using
 
 
 
 ```sh
 
-$ git remote add upstream https://github.com/ishaangupta-YB/Hacktoberfest-2022.git
+$ git remote add upstream https://github.com/SimranS22/K-Quiz.git
 
 ```
 
@@ -166,13 +166,13 @@ See the changes using
 
 $ git remote -v
 
-origin    https://github.com/Your_Username/Hacktoberfest-2022.git (fetch)
+origin    https://github.com/Your_Username/K-Quiz.git (fetch)
 
-origin    https://github.com/Your_Username/Hacktoberfest-2022.git (push)
+origin    https://github.com/Your_Username/K-Quiz.git (push)
 
-upstream  https://github.com/Remote_Username/Hacktoberfest-2022.git (fetch)
+upstream  https://github.com/Remote_Username/K-Quiz.git (fetch)
 
-upstream  https://github.com/Remote_Username/Hacktoberfest-2022.git (push)
+upstream  https://github.com/Remote_Username/K-Quiz.git (push)
 
 ```
 
@@ -182,13 +182,13 @@ upstream  https://github.com/Remote_Username/Hacktoberfest-2022.git (push)
 
 $ git remote -v
 
-origin    https://github.com/Your_Username/Hacktoberfest-2022.git (fetch)
+origin    https://github.com/Your_Username/K-Quiz.git (fetch)
 
-origin    https://github.com/Your_Username/Hacktoberfest-2022.git (push)
+origin    https://github.com/Your_Username/K-Quiz.git (push)
 
-upstream  https://github.com/ishaangupta-YB/Hacktoberfest-2022.git (fetch)
+upstream  https://github.com/ishaangupta-YB/K-Quiz.git (fetch)
 
-upstream  https://github.com/ishaangupta-YB/Hacktoberfest-2022.git (push)
+upstream  https://github.com/ishaangupta-YB/K-Quiz.git (push)
 
 ```
 
@@ -224,7 +224,7 @@ $ git reset --hard upstream/main
 
 
 
-# Push changes to your forked `Hacktoberfest-2021` repo
+# Push changes to your forked `K-Quiz` repo
 
 $ git push origin main
 
@@ -236,7 +236,7 @@ $ git push origin main
 
 
 
-Once you have completed these steps, you are ready to start contributing by checking our `Good First Issue` Issues and creating [pull requests](https://github.com/ishaangupta-YB/Hacktoberfest-2022/pulls).
+Once you have completed these steps, you are ready to start contributing by checking our `Good First Issue` Issues and creating [pull requests](https://github.com/SimranS22/K-Quiz/pulls).
 
 
 
