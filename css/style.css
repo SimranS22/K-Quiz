@@ -144,12 +144,9 @@ section{
     width: 100%;
     object-fit: cover;
     z-index: -2;
-    
 }
 
-
-.heading{
-    
+.heading{    
     color:rgba(63, 6, 96, 0.925);
     font-size: 3rem;
     font-weight: 600;
@@ -158,9 +155,7 @@ section{
     width:100%;
     align-items: center;
     text-align: center;
-
 }
-
 
 .inform_about{
     padding:1rem 5%;
@@ -172,8 +167,6 @@ section{
     vertical-align: top;
     float: left;
 }
-
-
 
 .inform_about .exer .exer-content p{
     font-size: 1.8rem;
@@ -201,7 +194,6 @@ section{
     margin: 10px;
     color:black;
 }
-
 
 .q-grid .q-boxcontain{
     margin: 10px 0;
@@ -245,8 +237,8 @@ section{
     font-size: medium;
     background: #fff;
     padding: 5px;
+    margin:auto;
 }
-
 
 .q-grid .q-boxcontain .q-contain:hover .image{
     transform: translateY(150%);
@@ -255,8 +247,6 @@ section{
 .q-grid .q-boxcontain .q-contain:hover .contents{
     top:0;
 }
-
-
 
 .box-text #btn{
     align-content: center;
@@ -272,13 +262,12 @@ section{
     cursor: pointer;
     transition: all 0.3s ease;
   }
-  .box-text #btn:hover{
-    background-color:rgb(213, 168, 255);
-  }
 
+.box-text #btn:hover{
+    background-color:rgb(213, 168, 255);
+}
 
 .credits{
-
     text-align: center;
     justify-content: center;
     color:#fff;
@@ -289,8 +278,6 @@ section{
     border-top: .2rem solid rgb(90, 10, 124);
     text-transform: capitalize;
     background: rgb(213, 168, 255);
-
-
 }
 
 @media(max-width:768px){
