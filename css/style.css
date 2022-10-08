@@ -150,7 +150,7 @@ section{
     color:rgba(63, 6, 96, 0.925);
     font-size: 3rem;
     font-weight: 600;
-    background-color: rgba(255, 255, 255, 0.516);/*new*/
+    background-color: rgba(255, 255, 255, 0.516);
     padding: 30px;
     width:100%;
     align-items: center;
@@ -237,7 +237,7 @@ section{
     font-size: medium;
     background: #fff;
     padding: 5px;
-    margin:auto;
+    margin: 7px;
 }
 
 .q-grid .q-boxcontain .q-contain:hover .image{
@@ -250,7 +250,7 @@ section{
 
 .box-text #btn{
     align-content: center;
-    margin:25px 149px;
+    margin:25px 150px;
     padding:10px;
     border: none;
     color: #fff;
