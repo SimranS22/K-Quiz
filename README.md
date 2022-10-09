@@ -1,4 +1,4 @@
-  Hacktoberfest-2022🔥
+# Hacktoberfest-2022🔥
 
 ![image](https://user-images.githubusercontent.com/70385488/192114009-0830321a-d227-4a4d-8411-6c03b54d7ce6.png)
 
@@ -328,15 +328,22 @@ Then add a title and description to your pull request that explains your preciou
 
 
 
-## Help Contributing Guides :crown:
+## Contributing Guides :crown:
 
 
 
 We love to have `articles` and `codes` in different languages and the `betterment` of existing ones.
 
+Please discuss what you would like to contribute to this repo by creating a new issue first.
 
 
-Please discuss it with us first by creating a new issue.
+
+
+## OUR VALUABLE CONTRIBUTORS✨
+<a href="https://github.com/SimranS22/K-Quiz/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=SimranS22/K-Quiz" />
+</a>
+
 
 
 
