@@ -349,4 +349,5 @@ Please discuss what you would like to contribute to this repo by creating a new 
 
 
 
-\n \n:tada: :confetti_ball: :smiley: _**Happy Contributing**_ :smiley: :confetti_ball: :tada:
+<br>
+:tada: :confetti_ball: :smiley: _**Happy Contributing**_ :smiley: :confetti_ball: :tada:
