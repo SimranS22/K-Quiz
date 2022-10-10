@@ -3,7 +3,7 @@
 ![image](https://user-images.githubusercontent.com/70385488/192114009-0830321a-d227-4a4d-8411-6c03b54d7ce6.png)
 
 
-### This repository aims to help code beginners with their first successful pull request and open source contribution. :partying_face:
+### This repository aims to help all developers - coders and non-coders - with their first successful pull request and open source contribution. :partying_face:
 
 
 
@@ -12,7 +12,7 @@
 
 
 
-:star: Make sure to grab some cool swags during Hacktoberfest by getting involved in the open-source community.
+:star: Make sure to grab some cool swags and learning during Hacktoberfest by getting involved in the open-source community.
 
 
 
@@ -349,6 +349,7 @@ Please discuss what you would like to contribute to this repo by creating a new 
 
 
 
+<br />
 <br />
 <br />
 
