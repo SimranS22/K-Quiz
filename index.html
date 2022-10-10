@@ -1,166 +1,181 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>K-Quiz</title>
-        <!-- custom css file link  -->
-        <link rel="stylesheet" href="./css/style.css">
-        <!-- google icons -->
-        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-        <!-- swiper css link  -->
-        <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
-        <!-- font awesome 4 cdn link -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <!-- font awesome cdn link  -->
-       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>K-Quiz</title>
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- google icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <!-- swiper css link  -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <!-- font awesome 4 cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
 </head>
+
 <body>
-      <!-- header section starts  -->
-      <header class="header">
+    <!-- header section starts  -->
+    <header class="header">
         <a href="#" class="logo"><span>K-Quiz</span></a>
-     
-            <nav class="navbar">
-                <a href="index.html">HOME</a>
-                <a href="#about">ABOUT</a>
-                <a href="#quiz">QUIZZES</a>
-            </nav>
-        
-            <div class="icons">
-                <i id="menu-btn" class="fas fa-bars"></i>
-            </div>
-        </header>
-        <!-- header section ends -->
 
-         <section class="image_1">
-            <div class="image_1row">
-                <div class="banner">
-                    <img src="images/Kdrama.jpg" alt="img">
-                <p class="heading">How well do you know your K-dramas?<br>
-                <span style="  color:rgba(63, 6, 96, 0.925);
-                font-size: 2.2rem;
-                font-weight: 500;">Take these K-Quizzes to find out!!</span></p>
-                
-                </div>
-            </div>
+        <nav class="navbar">
+            <a href="index.html">HOME</a>
+            <a href="#about">ABOUT</a>
+            <a href="#quiz">QUIZZES</a>
+        </nav>
 
-            <section class="inform_about" id="about">
-                <div class="exer">
-                    <h3 style="color: rgba(63,6,96,0.925);">ABOUT</h3>
-                    <div>
-                        <img src="images/JETLRP.png"/>
-                    </div>
-                    <div class="exer-content">
-                        <p>
-                            <em>Would you call yourself the <b>"best k-drama fanatic"</b>?</em>
-                            <br><br>
-                            Do you love K-dramas as much as Ji Eun Tak loves radio production?
-                            <br>
-                            It's hardly surprising that K-dramas have become incredibly popular due to their realistic, hilarious, and fantastic writing. K-dramas are renowned for their excellent acting, compelling plots, and high production values that assist to create an emotional connection between the characters and the audience. 
-                            <br><br>
-                            K-dramas have great appeal to all age groups and people of many nations, particularly those that are more socially conservative. The unique techniques of storytelling that K-dramas use to address social challenges, individual struggles, and universal themes like family, friendship, and love creates insightful content that connects with audiences throughout the world. 
-                            <br><br>
-                            Simply said, K-dramas help us feel less alone and frequently succeed in capturing our common human experiences and emotions.
-                            <br><br>
-                            It's time to test yourself and your passion for these k-dramas with these elaborate quizzes. 
-                            <br><br>
-                            
-                        </p>
-                    </div>
-                </div>
-                
-         </section>
-
-    <!--quiz grid starts-->
-    <section class="q-grid" id="qg"> 
-
-        <h2 class="q-head" id="quiz" style="color: rgba(63,6,96,0.925);">QUIZ SECTION</h2>
-
-        <div class="q-boxcontain">
-            <div class="q-contain">
-                <img src="images/dots.jpg" alt="" class="image">
-                <div class="contents">
-                    <h3>DESCENDANTS OF THE SUN</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus, esse.</p>
-                    <div class="box-text">
-                        <button id="btn"><a href="./public/DOTS.html" style="color:#fff;">Take Quiz</a></button>
-                    </div>
-                </div>
-            </div>
-    
-            <div class="q-contain">
-                <img src="images/goblin.jpg" alt="" class="image">
-                <div class="contents">
-                    <h3>GUARDIAN: THE LONELY AND GREAT GOD</h3>
-                    <p>Thses. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, sapiente.</p>
-                    <div class="box-text">
-                        <button id="btn"><a href="./public/GOBLIN.html" style="color:#fff;">Take Quiz</a></button>
-                    </div>
-                </div>
-            </div>
-
-            <div class="q-contain">
-                <img src="images/shryeo.jpg" alt="" class="image">
-                <div class="contents">
-                    <h3>MOON LOVERS: SCARLET HEART RYEO</h3>
-                    <p>T. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum dolores perferendis ullam?<br></p>
-                    <div class="box-text">
-                        <button id="btn"><a href="./public/SCARLETHEART.html" style="color:#fff;">Take Quiz</a></button>
-                    </div>
-                   
-                </div>
-            </div>
-
-            <div class="q-contain">
-                <img src="images/CLOY.jpg" alt="" class="image">
-                <div class="contents">
-                    <h3>CRASH LANDING ON YOU</h3>
-                    <p>Thses. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, sapiente.</p>
-                    <div class="box-text">
-                        <button id="btn"><a href="./public/CLOY.html" style="color:#fff;">Take Quiz</a></button>
-                    </div>
-                </div>
-            </div>
-
-            <div class="q-contain">
-                <img src="images/SG.jpg" alt="" class="image">
-                <div class="contents">
-                    <h3>SQUID GAMES</h3>
-                    <p>Thses. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, sapiente.</p>
-                    <div class="box-text">
-                        <button id="btn"><a href="./public/SquidGames.html" style="color:#fff;">Take Quiz</a></button>
-                    </div>
-                </div>
-            </div>
-
-            <div class="q-contain">
-                <img src="images/dbs.jpg" alt="" class="image">
-                <div class="contents">
-                    <h3>STRONG WOMAN: DO BONG SOON</h3>
-                    <p>Thses. Lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, dolor? ipsum dolor sit amet, consectetur adipisicing elit. Minus, sapiente.</p>
-                    <div class="box-text">
-                        <button id="btn"><a href="./public/DBS.html" style="color:#fff;">Take Quiz</a></button>
-                    </div>
-                </div>
-            </div>
-
+        <div class="icons">
+            <i id="menu-btn" class="fas fa-bars"></i>
         </div>
-       
-    </section>
-    <!--quiz grid ends-->
+    </header>
+    <!-- header section ends -->
 
-  
- 
-                <!-- copyright section -->
-            <div class="credits">
-                <p>All copyright of images used in this project goes to its respective owners.</p>
-                <p><h2>HacktoberFest2k22 Open Source Project | All Rights Reserved.</h2></p>
+    <section class="image_1">
+        <div class="image_1row">
+            <div class="banner">
+                <img src="images/Kdrama.jpg" alt="img">
+                <p class="heading">How well do you know your K-dramas?<br>
+                    <span style="  color:rgba(63, 6, 96, 0.925);
+                font-size: 2.2rem;
+                font-weight: 500;">Take these K-Quizzes to find out!!</span>
+                </p>
+
+            </div>
+        </div>
+
+        <section class="inform_about" id="about">
+            <div class="exer">
+                <h3 style="color: rgba(63,6,96,0.925);">ABOUT</h3>
+                <div>
+                    <img src="images/JETLRP.png" />
+                </div>
+                <div class="exer-content">
+                    <p>
+                        <em>Would you call yourself the <b>"best k-drama fanatic"</b>?</em>
+                        <br><br>
+                        Do you love K-dramas as much as Ji Eun Tak loves radio production?
+                        <br>
+                        It's hardly surprising that K-dramas have become incredibly popular due to their realistic,
+                        hilarious, and fantastic writing. K-dramas are renowned for their excellent acting, compelling
+                        plots, and high production values that assist to create an emotional connection between the
+                        characters and the audience.
+                        <br><br>
+                        K-dramas have great appeal to all age groups and people of many nations, particularly those that
+                        are more socially conservative. The unique techniques of storytelling that K-dramas use to
+                        address social challenges, individual struggles, and universal themes like family, friendship,
+                        and love creates insightful content that connects with audiences throughout the world.
+                        <br><br>
+                        Simply said, K-dramas help us feel less alone and frequently succeed in capturing our common
+                        human experiences and emotions.
+                        <br><br>
+                        It's time to test yourself and your passion for these k-dramas with these elaborate quizzes.
+                        <br><br>
+
+                    </p>
+                </div>
             </div>
 
-            <script src="./js/main.js"></script>
-            
+        </section>
+
+        <!--quiz grid starts-->
+        <section class="q-grid" id="qg">
+
+            <h2 class="q-head" id="quiz" style="color: rgba(63,6,96,0.925);">QUIZ SECTION</h2>
+
+            <div class="q-boxcontain">
+                <div class="q-contain">
+                    <img src="images/dots.jpg" alt="" class="image">
+                    <div class="contents">
+                        <h3>DESCENDANTS OF THE SUN</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus, esse.</p>
+                        <div class="box-text">
+                            <a href="./public/DOTS.html" style="color:#fff;"><button id="btn">Take Quiz</button></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="q-contain">
+                    <img src="images/goblin.jpg" alt="" class="image">
+                    <div class="contents">
+                        <h3>GUARDIAN: THE LONELY AND GREAT GOD</h3>
+                        <p>Thses. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, sapiente.</p>
+                        <div class="box-text">
+                            <a href="./public/GOB.html" style="color:#fff;"><button id="btn">Take Quiz</button></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="q-contain">
+                    <img src="images/shryeo.jpg" alt="" class="image">
+                    <div class="contents">
+                        <h3>MOON LOVERS: SCARLET HEART RYEO</h3>
+                        <p>T. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum dolores perferendis
+                            ullam?<br></p>
+                        <div class="box-text">
+                            <a href="./public/SH.html" style="color:#fff;"><button id="btn">Take Quiz</button></a>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="q-contain">
+                    <img src="images/CLOY.jpg" alt="" class="image">
+                    <div class="contents">
+                        <h3>CRASH LANDING ON YOU</h3>
+                        <p>Thses. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, sapiente.</p>
+                        <div class="box-text">
+                            <a href="./public/CLOY.html" style="color:#fff;"><button id="btn">Take Quiz</button></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="q-contain">
+                    <img src="images/SG.jpg" alt="" class="image">
+                    <div class="contents">
+                        <h3>SQUID GAMES</h3>
+                        <p>Thses. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, sapiente.</p>
+                        <div class="box-text">
+                            <a href="./public/SG.html" style="color:#fff;"><button id="btn">Take Quiz</button></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="q-contain">
+                    <img src="images/dbs.jpg" alt="" class="image">
+                    <div class="contents">
+                        <h3>STRONG WOMAN: DO BONG SOON</h3>
+                        <p>Thses. Lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, dolor? ipsum
+                            dolor sit amet, consectetur adipisicing elit. Minus, sapiente.</p>
+                        <div class="box-text">
+                            <a href="./public/DBS.html" style="color:#fff;"><button id="btn">Take Quiz</button></a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+        <!--quiz grid ends-->
+
+
+
+        <!-- copyright section -->
+        <div class="credits">
+            <p>All copyright of images used in this project goes to its respective owners.</p>
+            <p>
+            <h2>HacktoberFest2k22 Open Source Project | All Rights Reserved.</h2>
+            </p>
+        </div>
+
+        <script src="./js/main.js"></script>
+
 </body>
+
 </html>
