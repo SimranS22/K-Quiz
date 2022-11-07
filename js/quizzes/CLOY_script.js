@@ -12,7 +12,7 @@ const quizData = [
       "What was the reason why Se Ri call Jung Hyuk for the first time while he is at work?",
     a: "She wants scented candles",
     b: "She needs body wash",
-    c: "The elctricity went out",
+    c: "The electricity went out",
     d: "She wants another pair of clothes",
     correct: "b",
   },
